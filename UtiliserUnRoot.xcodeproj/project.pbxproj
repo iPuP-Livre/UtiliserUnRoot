@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03C9780151A33400004D2FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03C977F151A33400004D2FD /* UIKit.framework */; };
+		E03C9782151A33400004D2FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03C9781151A33400004D2FD /* Foundation.framework */; };
+		E03C9784151A33400004D2FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03C9783151A33400004D2FD /* CoreGraphics.framework */; };
+		E03C978A151A33400004D2FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E03C9788151A33400004D2FD /* InfoPlist.strings */; };
+		E03C978C151A33400004D2FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C978B151A33400004D2FD /* main.m */; };
+		E03C9790151A33400004D2FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C978F151A33400004D2FD /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E03C977B151A33400004D2FD /* UtiliserUnRoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UtiliserUnRoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03C977F151A33400004D2FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E03C9781151A33400004D2FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E03C9783151A33400004D2FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E03C9787151A33400004D2FD /* UtiliserUnRoot-Info.plist */ = {isa = PBXFileReference; path = "UtiliserUnRoot-Info.plist"; sourceTree = "<group>"; };
+		E03C9789151A33400004D2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E03C978B151A33400004D2FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E03C978D151A33400004D2FD /* UtiliserUnRoot-Prefix.pch */ = {isa = PBXFileReference; path = "UtiliserUnRoot-Prefix.pch"; sourceTree = "<group>"; };
+		E03C978E151A33400004D2FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E03C978F151A33400004D2FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E03C9778151A33400004D2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03C9780151A33400004D2FD /* UIKit.framework in Frameworks */,
+				E03C9782151A33400004D2FD /* Foundation.framework in Frameworks */,
+				E03C9784151A33400004D2FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E03C9770151A33400004D2FD = {
+			isa = PBXGroup;
+			children = (
+				E03C9785151A33400004D2FD /* UtiliserUnRoot */,
+				E03C977E151A33400004D2FD /* Frameworks */,
+				E03C977C151A33400004D2FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E03C977C151A33400004D2FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E03C977B151A33400004D2FD /* UtiliserUnRoot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E03C977E151A33400004D2FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03C977F151A33400004D2FD /* UIKit.framework */,
+				E03C9781151A33400004D2FD /* Foundation.framework */,
+				E03C9783151A33400004D2FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03C9785151A33400004D2FD /* UtiliserUnRoot */ = {
+			isa = PBXGroup;
+			children = (
+				E03C978E151A33400004D2FD /* AppDelegate.h */,
+				E03C978F151A33400004D2FD /* AppDelegate.m */,
+				E03C9786151A33400004D2FD /* Supporting Files */,
+			);
+			path = UtiliserUnRoot;
+			sourceTree = "<group>";
+		};
+		E03C9786151A33400004D2FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03C9787151A33400004D2FD /* UtiliserUnRoot-Info.plist */,
+				E03C9788151A33400004D2FD /* InfoPlist.strings */,
+				E03C978B151A33400004D2FD /* main.m */,
+				E03C978D151A33400004D2FD /* UtiliserUnRoot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E03C977A151A33400004D2FD /* UtiliserUnRoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03C9793151A33400004D2FD /* Build configuration list for PBXNativeTarget "UtiliserUnRoot" */;
+			buildPhases = (
+				E03C9777151A33400004D2FD /* Sources */,
+				E03C9778151A33400004D2FD /* Frameworks */,
+				E03C9779151A33400004D2FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UtiliserUnRoot;
+			productName = UtiliserUnRoot;
+			productReference = E03C977B151A33400004D2FD /* UtiliserUnRoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E03C9772151A33400004D2FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E03C9775151A33400004D2FD /* Build configuration list for PBXProject "UtiliserUnRoot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E03C9770151A33400004D2FD;
+			productRefGroup = E03C977C151A33400004D2FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E03C977A151A33400004D2FD /* UtiliserUnRoot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E03C9779151A33400004D2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03C978A151A33400004D2FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E03C9777151A33400004D2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03C978C151A33400004D2FD /* main.m in Sources */,
+				E03C9790151A33400004D2FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E03C9788151A33400004D2FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03C9789151A33400004D2FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E03C9791151A33400004D2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E03C9792151A33400004D2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E03C9794151A33400004D2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UtiliserUnRoot/UtiliserUnRoot-Prefix.pch";
+				INFOPLIST_FILE = "UtiliserUnRoot/UtiliserUnRoot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E03C9795151A33400004D2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UtiliserUnRoot/UtiliserUnRoot-Prefix.pch";
+				INFOPLIST_FILE = "UtiliserUnRoot/UtiliserUnRoot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E03C9775151A33400004D2FD /* Build configuration list for PBXProject "UtiliserUnRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03C9791151A33400004D2FD /* Debug */,
+				E03C9792151A33400004D2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03C9793151A33400004D2FD /* Build configuration list for PBXNativeTarget "UtiliserUnRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03C9794151A33400004D2FD /* Debug */,
+				E03C9795151A33400004D2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E03C9772151A33400004D2FD /* Project object */;
+}
