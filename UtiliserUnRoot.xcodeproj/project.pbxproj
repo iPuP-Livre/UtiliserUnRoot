@@ -13,6 +13,14 @@
 		E03C978A151A33400004D2FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E03C9788151A33400004D2FD /* InfoPlist.strings */; };
 		E03C978C151A33400004D2FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C978B151A33400004D2FD /* main.m */; };
 		E03C9790151A33400004D2FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C978F151A33400004D2FD /* AppDelegate.m */; };
+		E03C9799151A33720004D2FD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C9797151A33720004D2FD /* RootViewController.m */; };
+		E03C979A151A33720004D2FD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03C9798151A33720004D2FD /* RootViewController.xib */; };
+		E03C979E151A33DF0004D2FD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C979C151A33DF0004D2FD /* MenuViewController.m */; };
+		E03C979F151A33DF0004D2FD /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03C979D151A33DF0004D2FD /* MenuViewController.xib */; };
+		E03C97A3151A33EC0004D2FD /* JeuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C97A1151A33EC0004D2FD /* JeuViewController.m */; };
+		E03C97A4151A33EC0004D2FD /* JeuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03C97A2151A33EC0004D2FD /* JeuViewController.xib */; };
+		E03C97A8151A33F80004D2FD /* ParametresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C97A6151A33F80004D2FD /* ParametresViewController.m */; };
+		E03C97A9151A33F80004D2FD /* ParametresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03C97A7151A33F80004D2FD /* ParametresViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,24 @@
 		E03C977F151A33400004D2FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E03C9781151A33400004D2FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E03C9783151A33400004D2FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E03C9787151A33400004D2FD /* UtiliserUnRoot-Info.plist */ = {isa = PBXFileReference; path = "UtiliserUnRoot-Info.plist"; sourceTree = "<group>"; };
+		E03C9787151A33400004D2FD /* UtiliserUnRoot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UtiliserUnRoot-Info.plist"; sourceTree = "<group>"; };
 		E03C9789151A33400004D2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E03C978B151A33400004D2FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E03C978D151A33400004D2FD /* UtiliserUnRoot-Prefix.pch */ = {isa = PBXFileReference; path = "UtiliserUnRoot-Prefix.pch"; sourceTree = "<group>"; };
-		E03C978E151A33400004D2FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E03C978D151A33400004D2FD /* UtiliserUnRoot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UtiliserUnRoot-Prefix.pch"; sourceTree = "<group>"; };
+		E03C978E151A33400004D2FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E03C978F151A33400004D2FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E03C9796151A33720004D2FD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E03C9797151A33720004D2FD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E03C9798151A33720004D2FD /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		E03C979B151A33DF0004D2FD /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E03C979C151A33DF0004D2FD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E03C979D151A33DF0004D2FD /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		E03C97A0151A33EC0004D2FD /* JeuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JeuViewController.h; sourceTree = "<group>"; };
+		E03C97A1151A33EC0004D2FD /* JeuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JeuViewController.m; sourceTree = "<group>"; };
+		E03C97A2151A33EC0004D2FD /* JeuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JeuViewController.xib; sourceTree = "<group>"; };
+		E03C97A5151A33F80004D2FD /* ParametresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametresViewController.h; sourceTree = "<group>"; };
+		E03C97A6151A33F80004D2FD /* ParametresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametresViewController.m; sourceTree = "<group>"; };
+		E03C97A7151A33F80004D2FD /* ParametresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParametresViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,18 @@
 				E03C978E151A33400004D2FD /* AppDelegate.h */,
 				E03C978F151A33400004D2FD /* AppDelegate.m */,
 				E03C9786151A33400004D2FD /* Supporting Files */,
+				E03C9796151A33720004D2FD /* RootViewController.h */,
+				E03C9797151A33720004D2FD /* RootViewController.m */,
+				E03C9798151A33720004D2FD /* RootViewController.xib */,
+				E03C979B151A33DF0004D2FD /* MenuViewController.h */,
+				E03C979C151A33DF0004D2FD /* MenuViewController.m */,
+				E03C979D151A33DF0004D2FD /* MenuViewController.xib */,
+				E03C97A0151A33EC0004D2FD /* JeuViewController.h */,
+				E03C97A1151A33EC0004D2FD /* JeuViewController.m */,
+				E03C97A2151A33EC0004D2FD /* JeuViewController.xib */,
+				E03C97A5151A33F80004D2FD /* ParametresViewController.h */,
+				E03C97A6151A33F80004D2FD /* ParametresViewController.m */,
+				E03C97A7151A33F80004D2FD /* ParametresViewController.xib */,
 			);
 			path = UtiliserUnRoot;
 			sourceTree = "<group>";
@@ -141,6 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E03C978A151A33400004D2FD /* InfoPlist.strings in Resources */,
+				E03C979A151A33720004D2FD /* RootViewController.xib in Resources */,
+				E03C979F151A33DF0004D2FD /* MenuViewController.xib in Resources */,
+				E03C97A4151A33EC0004D2FD /* JeuViewController.xib in Resources */,
+				E03C97A9151A33F80004D2FD /* ParametresViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +189,10 @@
 			files = (
 				E03C978C151A33400004D2FD /* main.m in Sources */,
 				E03C9790151A33400004D2FD /* AppDelegate.m in Sources */,
+				E03C9799151A33720004D2FD /* RootViewController.m in Sources */,
+				E03C979E151A33DF0004D2FD /* MenuViewController.m in Sources */,
+				E03C97A3151A33EC0004D2FD /* JeuViewController.m in Sources */,
+				E03C97A8151A33F80004D2FD /* ParametresViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
